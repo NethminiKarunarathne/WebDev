@@ -43,8 +43,11 @@
     align-items: center;
 
 }
+.content button:hover{
+    color: #978b8b;
+}
 .content button img{
-    width: 15px;
+    width: 35px;
     margin-left: 10px;
     
 }
