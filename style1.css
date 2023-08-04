@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    justify-content: center;
+}
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.rocket {
+    width: 200px;
+    position: absolute;
+    right: 8%;
+    bottom: 0;
+    animation: 4s rocket linear infinite;
+
+}
+@keyframes rocket {
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+.skill {
+    width: 160px;
+    height: 160px;
+    /* background: black; */
+    position: relative;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid rgb(17, 16, 16);
+}
