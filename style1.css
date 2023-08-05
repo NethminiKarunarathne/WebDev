@@ -12,7 +12,14 @@
     background-position: center;
     background-size: cover;
     padding: 0 8%;
+    
+}
+.Eve {
+    margin-top: 35%;
     justify-content: center;
+    display: flex;
+    align-items: center;
+
 }
 .logo{
     width: 120px;
@@ -23,7 +30,7 @@
 .rocket {
     width: 200px;
     position: absolute;
-    right: 8%;
+    right: 5%;
     bottom: 0;
     animation: 4s rocket linear infinite;
 
@@ -39,14 +46,51 @@
     }
 }
 .skill {
+    /* position: center; */
     width: 160px;
     height: 160px;
     /* background: black; */
     position: relative;
 }
 .outer{
+    position: center;
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    border: 1px solid rgb(17, 16, 16);
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(17, 16, 16); */
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(156, 124, 160, 0.15),
+                -6px -6px 10px -1px rgba(120, 84, 159, 0.7)
+}
+.inner{
+    position: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(156, 113, 162, 0.2),
+                inset -4px -4px 6px -1px rgba(139, 55, 150, 0.15),
+                -0.5px -0.5px 0 rgb(132, 123, 123, 1),
+                0.5px 0.5px 0 rgba(0, 0, 0, 0.15),
+                0px 10px 12px -10px rgba(0, 0, 0, 0.05);
+
+}
+#number{
+    font-weight: 600px;
+    color: aliceblue;
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+}
+svg{
+    position: absolute;
+   
 }

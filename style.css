@@ -69,7 +69,7 @@
 .rocket {
     width: 200px;
     position: absolute;
-    right: 8%;
+    right: 5%;
     bottom: 0;
     animation: 4s rocket linear infinite;
 
