@@ -12,10 +12,11 @@
     <img src="images/logo.png", class="logo">
     <img src="images/rocket.png" class="rocket">
     <div class="Eve">
+        
         <div class="skill">
             <div class="outer">
                 <div class="inner">
-                    <div id="number">45%</div>
+                    <div id="number"></div>
                 </div> 
             </div>
         </div>
@@ -28,9 +29,23 @@
         </defs>
         <circle cx="80" cy="80" r="70" stroke-linecap="round" />
     </svg>
-    </div>
     
+    </div>
+    <h1>is already filled!!!</h1>
+    <p>Hurry up and grab your seat.. </p>
 </div>
+<script>
+    let number = document.getElementById("number");
+    let counter = 0;
+    setInterval(()=>{
+        if (counter == 45){
+            clearInterval();
+        }else{
+            counter +=1;
+            number.innerHTML = counter + "%";
+        }
+    },30);
 
+</script>
 </body>
 </html>
